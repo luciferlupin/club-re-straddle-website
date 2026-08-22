@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Member Login & KYC - Club Re Straddle</title>
+  <meta name="description" content="Member portal for Club Re Straddle Noida. Log in to check your reward points, table bookings, and KYC status." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="index.html" class="logo-wrapper">
+        <img src="images/logo.svg" alt="Club Re Straddle Logo" class="logo-img" />
+      </a>
+      <nav class="nav-menu">
+        <div class="nav-item"><a href="index.html" class="nav-link">HOME</a></div>
+        <div class="nav-item"><a href="tournaments.html" class="nav-link">TOURNAMENTS</a></div>
+        <div class="nav-item has-dropdown">
+          <a href="how-to-play.html" class="nav-link">
+            HOW TO PLAY <i class="fas fa-chevron-down" style="font-size: 11px;"></i>
+          </a>
+          <div class="dropdown-menu">
+            <div class="dropdown-item"><a href="poker-rules.html">POKER RULES</a></div>
+            <div class="dropdown-item"><a href="poker-strategy.html">POKER STRATEGY</a></div>
+            <div class="dropdown-item"><a href="poker-hands.html">POKER HANDS</a></div>
+            <div class="dropdown-item"><a href="card-room-rules.html">CARD ROOM RULES</a></div>
+          </div>
+        </div>
+        <div class="nav-item"><a href="pr-news.html" class="nav-link">PR & NEWS</a></div>
+        <div class="nav-item"><a href="faqs.html" class="nav-link">FAQ'S</a></div>
+        <div class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></div>
+        <div class="nav-item"><a href="login.html" class="nav-btn-login active">LOGIN</a></div>
+      </nav>
+      <button class="mobile-toggle"><i class="fas fa-bars"></i></button>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container page-hero-content">
+      <h1 class="page-title">MEMBER LOGIN</h1>
+      <div class="breadcrumb">
+        <a href="index.html">HOME</a> <i class="fas fa-chevron-right" style="font-size: 10px; color: var(--accent-color);"></i> <span>LOGIN & KYC</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Login Form Section -->
+  <section class="section">
+    <div class="container" style="max-width: 550px;">
+      <div class="contact-card" style="border: 1px solid var(--border-gold); box-shadow: var(--gold-glow);">
+        <div style="text-align: center; margin-bottom: 30px;">
+          <img src="images/logo.svg" alt="Club Re Straddle" style="height: 70px; margin: 0 auto 12px auto;" />
+          <h2>SIGN IN TO CLUB</h2>
+          <p style="font-size: 14px;">Access your member privileges, table reservations, and points.</p>
+        </div>
+
+        <form onsubmit="event.preventDefault(); alert('Login successful! Welcome to Club Re Straddle.');">
+          <div class="form-group">
+            <label>Email or Member ID</label>
+            <input type="text" class="form-control" placeholder="Enter your email or phone" required />
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="••••••••" required />
+          </div>
+          
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; font-size: 13px;">
+            <label style="display: flex; align-items: center; gap: 8px; cursor: pointer; text-transform: none;">
+              <input type="checkbox" checked /> Remember Me
+            </label>
+            <a href="#" style="color: var(--accent-color);">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%; margin-bottom: 20px;">SIGN IN</button>
+
+          <div style="text-align: center; font-size: 14px; color: var(--text-color);">
+            Don't have a membership yet? <a href="#registerModal" class="open-register-modal" style="color: var(--accent-color); font-weight: 600;">Register Here</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-about">
+          <img src="images/logo.svg" alt="Club Re Straddle" class="footer-logo" />
+          <p>Club Re Straddle is the premier legal poker club in NCR Noida. Experience top-tier tournament action and hospitality.</p>
+        </div>
+        <div class="footer-col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="tournaments.html">Tournaments</a></li>
+            <li><a href="how-to-play.html">How To Play</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>LEGAL & RULES</h4>
+          <ul class="footer-links">
+            <li><a href="poker-rules.html">Poker Rules</a></li>
+            <li><a href="poker-hands.html">Poker Hands</a></li>
+            <li><a href="card-room-rules.html">Card Room Rules</a></li>
+            <li><a href="legality.html">Legality</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>CLUB LOCATION</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>JB Complex, Sector 104, Noida, UP</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Club Re Straddle. All Rights Reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Registration Modal -->
+  <div class="modal-backdrop" id="registerModal">
+    <div class="modal-card">
+      <button class="modal-close">&times;</button>
+      <div style="text-align: center; margin-bottom: 25px;">
+        <img src="images/logo.svg" alt="Club Re Straddle" style="height: 60px; margin: 0 auto 10px auto;" />
+        <h3 style="color: var(--accent-color);">NEW MEMBER KYC</h3>
+        <p style="font-size: 13px; color: var(--text-color); margin: 0;">Register for instant verification and daily table access.</p>
+      </div>
+      <form onsubmit="event.preventDefault(); alert('KYC registration submitted successfully! Our floor supervisor will confirm your verification.'); document.getElementById('registerModal').classList.remove('open');">
+        <div class="form-group">
+          <label>Full Name (as per Govt ID)</label>
+          <input type="text" class="form-control" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label>Mobile Number (WhatsApp)</label>
+          <input type="tel" class="form-control" placeholder="+91 98765 43210" required />
+        </div>
+        <div class="form-group">
+          <label>City / Location</label>
+          <input type="text" class="form-control" placeholder="Noida / Delhi / Gurgaon" required />
+        </div>
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 10px;">SUBMIT KYC</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
