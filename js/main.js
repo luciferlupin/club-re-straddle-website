@@ -97,25 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 4. Modal Triggers (Register / KYC / Tournaments)
-  const modalBackdrop = document.getElementById('registerModal');
-  const modalOpenBtns = document.querySelectorAll('.open-register-modal');
-  const modalCloseBtns = document.querySelectorAll('.modal-close, .modal-backdrop');
 
-  modalOpenBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      if (modalBackdrop) modalBackdrop.classList.add('open');
-    });
-  });
-
-  modalCloseBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      if (e.target === btn || btn.classList.contains('modal-close')) {
-        if (modalBackdrop) modalBackdrop.classList.remove('open');
-      }
-    });
-  });
 
   // 5. Lightbox for Gallery
   const galleryItems = document.querySelectorAll('.gallery-item');
