@@ -1,0 +1,8 @@
+# Robots.txt for Club Re Straddle
+# https://clubrestraddle.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://clubrestraddle.com/sitemap.xml

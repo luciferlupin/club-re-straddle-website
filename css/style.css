@@ -1275,12 +1275,316 @@ textarea.form-control {
   transition: var(--transition);
 }
 
-.modal-close:hover {
+/* ========================================================
+   SEO & Google Business Profile Enhancement Styles
+   ======================================================== */
+
+/* Google Business Profile & Review Badges */
+.gbp-badge-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.google-review-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-gold);
+  border-radius: 30px;
+  padding: 8px 18px;
+  font-size: 13px;
+  color: var(--primary-color);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: var(--transition);
+}
+
+.google-review-badge:hover {
+  background: rgba(255, 187, 53, 0.1);
+  transform: translateY(-2px);
+}
+
+.google-review-badge .google-icon {
+  font-size: 16px;
+  color: #4285F4;
+}
+
+.google-review-badge .stars {
   color: var(--accent-color);
+  letter-spacing: 1px;
+}
+
+.google-review-badge .score {
+  font-weight: 700;
+  color: var(--accent-color);
+}
+
+.verified-seal {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #4CAF50;
+  background: rgba(76, 175, 80, 0.1);
+  border: 1px solid rgba(76, 175, 80, 0.3);
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+
+/* Interactive Map Container */
+.map-embed-wrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-gold);
+  box-shadow: var(--box-shadow);
+  background: var(--bg-card);
+}
+
+.map-embed-wrapper iframe {
+  width: 100%;
+  height: 380px;
+  border: 0;
+  display: block;
+  filter: grayscale(20%) contrast(1.1) invert(90%) hue-rotate(180deg);
+}
+
+.map-actions-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 16px 20px;
+  background: #0d0d0d;
+  border-top: 1px solid var(--border-color);
+}
+
+.map-address-text {
+  font-size: 14px;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.map-address-text i {
+  color: var(--accent-color);
+  font-size: 18px;
+}
+
+/* Regional Transit & Proximity Grid */
+.connectivity-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.transit-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 24px 20px;
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.transit-card:hover {
+  border-color: var(--accent-color);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 187, 53, 0.15);
+}
+
+.transit-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  margin-bottom: 12px;
+}
+
+.transit-title {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+}
+
+.transit-time {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.transit-time span {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+.transit-route {
+  font-size: 13px;
+  color: var(--text-color);
+  line-height: 1.5;
+}
+
+/* Social Media Channels Grid & Pills */
+.social-channel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.social-channel-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: var(--text-light);
+  transition: var(--transition);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.social-channel-card i {
+  font-size: 20px;
+  color: var(--accent-color);
+  transition: var(--transition);
+}
+
+.social-channel-card:hover {
+  background: rgba(255, 187, 53, 0.12);
+  border-color: var(--accent-color);
+  color: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+.social-channel-card:hover i {
+  transform: scale(1.15);
+}
+
+/* Footer Social Icons Bar */
+.footer-social-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.social-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-light);
+  font-size: 16px;
+  transition: var(--transition);
+}
+
+.social-icon-btn:hover {
+  background: var(--accent-color);
+  color: #000;
+  border-color: var(--accent-color);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(255, 187, 53, 0.4);
+}
+
+/* Competitor Advantages Grid */
+.advantages-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 40px;
+}
+
+.advantage-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 30px 25px;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.advantage-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--accent-gradient);
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.advantage-card:hover {
+  border-color: var(--border-gold);
+  transform: translateY(-5px);
+  box-shadow: var(--box-shadow);
+}
+
+.advantage-card:hover::before {
+  opacity: 1;
+}
+
+.advantage-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+  background: rgba(255, 187, 53, 0.1);
+  border: 1px solid var(--border-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.advantage-card h3 {
+  font-size: 20px;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.advantage-card p {
+  font-size: 14px;
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
 /* Responsive Media Queries */
 @media (max-width: 1024px) {
+  .connectivity-grid { grid-template-columns: repeat(2, 1fr); }
+  .advantages-grid { grid-template-columns: repeat(2, 1fr); }
+
   h1 { font-size: 44px; }
   h2 { font-size: 32px; }
   .hero-title { font-size: 48px; }
@@ -1360,6 +1664,16 @@ textarea.form-control {
   }
   .footer-top {
     grid-template-columns: 1fr;
+  }
+  .connectivity-grid {
+    grid-template-columns: 1fr;
+  }
+  .advantages-grid {
+    grid-template-columns: 1fr;
+  }
+  .map-actions-bar {
+    flex-direction: column;
+    align-items: flex-start;
   }
   .footer-bottom {
     flex-direction: column;

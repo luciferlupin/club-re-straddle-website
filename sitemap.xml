@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Homepage -->
+  <url>
+    <loc>https://clubrestraddle.com/</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://clubrestraddle.com/images/hero_poker_table.jpg</image:loc>
+      <image:title>Club Re Straddle - Premier Poker Club in Delhi NCR &amp; Noida</image:title>
+      <image:caption>NCR's First Legal Live Poker Destination at Sector 104 Noida</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Contact & Location (Crucial for Local SEO) -->
+  <url>
+    <loc>https://clubrestraddle.com/contact.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Tournaments -->
+  <url>
+    <loc>https://clubrestraddle.com/tournaments.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- About Us -->
+  <url>
+    <loc>https://clubrestraddle.com/about-us.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- FAQs -->
+  <url>
+    <loc>https://clubrestraddle.com/faqs.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Legality -->
+  <url>
+    <loc>https://clubrestraddle.com/legality.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- How to Play -->
+  <url>
+    <loc>https://clubrestraddle.com/how-to-play.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Poker Rules -->
+  <url>
+    <loc>https://clubrestraddle.com/poker-rules.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Poker Strategy -->
+  <url>
+    <loc>https://clubrestraddle.com/poker-strategy.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Poker Hands -->
+  <url>
+    <loc>https://clubrestraddle.com/poker-hands.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Card Room Rules -->
+  <url>
+    <loc>https://clubrestraddle.com/card-room-rules.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- PR & News -->
+  <url>
+    <loc>https://clubrestraddle.com/pr-news.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://clubrestraddle.com/privacy-policy.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+
+  <!-- Terms & Conditions -->
+  <url>
+    <loc>https://clubrestraddle.com/terms.html</loc>
+    <lastmod>2026-09-10</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.4</priority>
+  </url>
+</urlset>
